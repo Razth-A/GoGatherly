@@ -68,7 +68,7 @@ export default function Home() {
                     <div className="w-full h-full rounded-lg overflow-hidden shadow-lg transform transition-all duration-500 hover:scale-105 hover:shadow-xl">
                         <div className="relative w-full h-full">
                             <img
-                                src="src/assets/pic6.jpg"
+                                src="../assets/pic6.jpg"
                                 alt="Runner with medal"
                                 className="w-full h-full object-cover"
                             />
@@ -90,7 +90,7 @@ export default function Home() {
                     <div className="col-span-2 w-full h-full rounded-lg overflow-hidden shadow-lg transform transition-all duration-500 hover:scale-105 hover:shadow-xl">
                         <div className="relative w-full h-full">
                             <img
-                                src="src/assets/pic3.jpg"
+                                src="../assets/pic3.jpg"
                                 alt="Event tickets"
                                 className="w-full h-full object-cover"
                             />
@@ -113,7 +113,7 @@ export default function Home() {
                     <div className="grid md:grid-cols-2 gap-35 items-center">
                         <div className=" bg-gradient-to-t from-purple-800/30 via-purple-500/15 rounded-lg overflow-hidden shadow-lg transform transition-all duration-500 hover:scale-105 hover:shadow-xl">
                             <img
-                                src="public/assets/pic1.jpg"
+                                src="../../public/assets/pic1.jpg"
                                 alt="Event tickets"
                                 width={1800}
                                 height={1000}
@@ -263,7 +263,7 @@ export default function Home() {
                         </div>
                         <div className="rounded-lg overflow-hidden shadow-lg transform transition-all duration-500 hover:shadow-xl hover:scale-[1.02]">
                             <img
-                                src="src/assets/pic5.jpg"
+                                src="../assets/pic5.jpg"
                                 alt="Event crowd"
                                 width={1800}
                                 height={1000}
@@ -279,7 +279,7 @@ export default function Home() {
                 {/* Background Image */}
                 <div className="absolute inset-0 bg-gradient-to-b from-purple-300 to-purple-400">
                     <img
-                        src="src/assets/pic4.jpg"
+                        src="../assets/ticket2.jpg"
                         alt="Event background"
                         width={1200}
                         height={600}
